@@ -4,12 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/index.css">
-        <script src="main.js"></script>
         <title>Lista Dinamica de Animes</title>
     </head>
 
     <body>
-        
         <header class = "cabeçalho">
             <img src="/assets/lista.png" alt="lista anime">
             <div>
@@ -21,15 +19,17 @@
         
         <main class= "exec">   
             <img src="/assets/xLista.PNG" alt="ornamento x 1" >        
-            <input type="text" id="anime" placeholder="Escreva um nome de um anime para adicionar na lista" >
-            <button onclick="addAnim();">Adicionar</button>      
+            <input type="text" id='animText' placeholder="Escreva um nome de um anime para adicionar na lista" >
+            <button id= 'botao' onclick="addAnim();">Adicionar</button>      
             <img src="/assets/xLista.PNG" alt="ornamento x 2" >     
 
             <div class="colLista">
                 <ul id = "lista">
-                    <li>item 1 <button> <img src="/assets/MenosLista.PNG" alt="menos"></button></li>
+                    
                 </ul>
             </div>
         </main>
+
+        <script src="main.js"></script>
     </body>
 </html>
