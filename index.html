@@ -8,6 +8,7 @@
     </head>
 
     <body>
+        <script src="main.js"></script>
         <header class = "cabeçalho">
             <img src="/assets/lista.png" alt="lista anime">
             <div>
@@ -16,14 +17,18 @@
             </div>
         </header>
         
+        
         <main class= "exec">   
             <img src="/assets/xLista.PNG" alt="ornamento x 1" >        
             <input type="text" id="anime" placeholder="Escreva um nome de um anime para adicionar na lista">
             <button>Adicionar</button>      
             <img src="/assets/xLista.PNG" alt="ornamento x 2" >     
-        </main>>
 
-        <div id="lista"></div>
-        
+            <div class="colLista">
+                <ul id = "lista">
+                    <li>item 1 <button> <img src="/assets/MenosLista.PNG" alt="menos"></button></li>
+                </ul>
+            </div>
+        </main>
     </body>
 </html>
