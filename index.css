@@ -5,16 +5,26 @@
 
 body{
     display: flex;
-
+    /*fará cabeçalho e exec ficare, um do lado do outro*/
 }
 
 
 .cabeçalho{
     background-color:#02abc0;
-    display: flex;
+    height: 650px;
+    /*altura*/
+    width: 500px;
+    /*largura*/
+}
+
+.cabeçalho img {
+    height: 400px;
+    width: 400px;
+    /*tamanho da imagem*/
+    margin: 10px 50px;
+    /*localização da umagem no bloco do cabeçalho*/
 }
 
 .exec{
     background-color: white;
-
 }
