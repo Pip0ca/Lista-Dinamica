@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: quicksand;
+}
+
+@font-face{
+    font-family: quicksand;
+    src: url(quicksand-regular-webfont.woff);
 }
 
 body{
@@ -21,8 +27,19 @@ body{
     height: 400px;
     width: 400px;
     /*tamanho da imagem*/
-    margin: 10px 50px;
+    margin: 0px 50px;
     /*localização da umagem no bloco do cabeçalho*/
+}
+
+.cabeçalho div{
+    display: flex;
+    flex-direction: column;
+    /*organiza os textos em colunas, uma em baixo da outra*/
+    margin-left: 40px;
+}
+
+.cabeçalho i{
+    margin:180px 110px;
 }
 
 .exec{
