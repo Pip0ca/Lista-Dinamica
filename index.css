@@ -5,6 +5,7 @@
 
 body{
     display: flex;
+
 }
 
 .coluna1{
@@ -13,6 +14,7 @@ body{
 
 .coluna2{
     background-color:#02abc0;
+    display: flex;
 }
 
 .coluna3{
