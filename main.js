@@ -1,7 +1,9 @@
-var ul = documento.getElementById();
+var ul = documento.getElementById("lista");
+var li;
+var itemId;
 
-addAnim = function("lista"){
-
+addAnim = function(){
+alert("oi");
 }
 
 removeAnim = function(){
