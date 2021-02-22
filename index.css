@@ -8,16 +8,13 @@ body{
 
 }
 
-.coluna1{
-    background-color: white;
-}
 
-.coluna2{
+.cabeçalho{
     background-color:#02abc0;
     display: flex;
 }
 
-.coluna3{
+.exec{
     background-color: white;
 
 }
