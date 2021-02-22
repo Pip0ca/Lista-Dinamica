@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.cabeçalho{
+    background-color:#02abc0;
+    float: left;
+    width: 240px;
+}
