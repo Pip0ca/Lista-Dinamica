@@ -3,8 +3,19 @@
     margin: 0;
 }
 
-.cabeçalho{
+body{
+    display: flex;
+}
+
+.coluna1{
+    background-color: white;
+}
+
+.coluna2{
     background-color:#02abc0;
-    float: left;
-    width: 240px;
+}
+
+.coluna3{
+    background-color: white;
+
 }
