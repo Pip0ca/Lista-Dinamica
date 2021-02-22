@@ -21,6 +21,7 @@ body{
     /*altura*/
     width: 500px;
     /*largura*/
+    
 }
 
 .cabeçalho img {
@@ -36,12 +37,50 @@ body{
     flex-direction: column;
     /*organiza os textos em colunas, uma em baixo da outra*/
     margin-left: 40px;
+    color: white;
 }
 
 .cabeçalho i{
-    margin:180px 110px;
+    margin-top: 180px;
+    margin-left: 140px;
+    font-size: 12px;
 }
 
 .exec{
     background-color: white;
+    padding:50px 50px;
+    /*padding funciona como margin*/
+}
+
+.exec img{
+height: 40px;
+width: 40px;
+}
+
+.exec input{
+    background-color: white;
+    height: 30px;
+    width: 550px;
+    /*aumenta a caixa do input*/
+    font-size: 14px;
+    border-radius: 50px;
+    /*curvatura da borda*/
+    border: 0.5px solid hsl(0, 0%, 59%);
+    /*grossura da borda, tipo da borda e cor da borda*/
+    color: black;
+    /*cor do texto dentro do input*/
+    outline: none;
+    /*efeito visual ao clicar*/
+    text-align: center;
+}
+
+.exec button{
+    background-color: #02abc0 ;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: filter 0.5s;
+    height: 30px;
+    width: 100px;
 }
