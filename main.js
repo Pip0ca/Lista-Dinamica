@@ -43,7 +43,3 @@ createRemoveAnimBtn = function(itemId){
     return btn;
 }
 
-contatAnim = function(itemId){
-    cont = ul.length +1;
-    document.getElementById("contador").innerHTML = cont;
-}
