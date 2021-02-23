@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-direction: column;
     /*organiza os textos em colunas, uma em baixo da outra*/
-    margin-left: 60px;
+    margin-left: 150px;
     color: white;
 }
 
@@ -83,4 +83,27 @@ width: 40px;
     transition: filter 0.5s;
     height: 30px;
     width: 100px;
+}
+
+.exec div{
+    margin-top: 15px;
+    overflow-y: auto;
+}
+
+li{
+    height: 25px;
+    margin: 10px 0px 10px 0px ;
+}
+
+.exec div button{
+    float: right;
+    background-color: #fe5d63;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: filter 0.5s;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
 }
